@@ -1,3 +1,49 @@
+:root{
+  font-family: "Alice", serif;
+  line-height: 150%;
+  color: #573a37;
+}
+
+body{
+  background-image: url(assets/cupcakes-de-cafe-decorados-com-chantilly-e-graos-de-cafe_114579-7888.avif);
+  background-size: cover;
+}
+
+#page{
+  box-sizing: border-box;
+  width: 800px;
+  padding: 24px;
+  background-color: #f0e8c2;
+  border-radius: 24px;
+  margin: 48px auto;
+}
+
 img{
-  border-radius: 16px;
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 16px; /* Bordas arredondadas para a imagem */
+    display: block; /* Remove espaços extras ao tratar imagens como block */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+h1{
+  line-height: 140%;
+  font-size: 40px;
+  
+}
+
+h2{
+  font-size: 24px;
+}
+
+h1, h2, p{
+  color: #291b1a;
+}
+
+footer{
+  text-align: center;
+  padding-bottom: 48px;
+  color: #f0e8c2;
+  font-family: "Alice", serif; 
+  font-size: 20px;
 }
